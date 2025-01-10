@@ -27,9 +27,25 @@ public class ArbolRecorridos {
 
     public void preOrderRecursivo(Node node) {
         if (node != null) {
-            System.out.println(node.getValue() + ", ");
+            System.out.print(node.getValue() + ", ");
             preOrderRecursivo(node.getLeft());
             preOrderRecursivo(node.getRight());
+        }
+    }
+
+    public void inOrderRecursivo(Node node) {
+        if (node != null) {
+            preOrderRecursivo(node.getLeft());
+            System.out.print(node.getValue() + ", ");
+            preOrderRecursivo(node.getRight());
+        }
+    }
+
+    public void postOrderRecursivo(Node node) {
+        if (node != null) {
+            preOrderRecursivo(node.getLeft());
+            preOrderRecursivo(node.getRight());
+            System.out.print(node.getValue() + ", ");
         }
     }
 }
