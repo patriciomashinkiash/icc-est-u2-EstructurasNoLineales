@@ -7,8 +7,8 @@ import main.materia.Models.Node;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        runArbolBinario();
-        //runEjercicio3();
+        //runArbolBinario();
+        runEjercicio3();
     }
 
     public static void runArbolBinario() {
@@ -53,7 +53,7 @@ public class App {
         System.out.println("Niveles del arbol:");
         List<List<Node>> levels = listLevels.listLevels(arbol.getRoot());
 
-        //listLevels.printLevels(levels);
+        listLevels.printLevels(levels);
     }
 
 }

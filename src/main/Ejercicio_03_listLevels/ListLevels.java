@@ -43,12 +43,25 @@ public class ListLevels {
                 if (node.getLeft() != null) {
                     queue.offer(node.getLeft());
                 }
+                if (node.getRight() != null) {
+                    queue.offer(node.getRight());
+                }
                 
             }
-
+            levels.add(currentLevel);
         }
-
         return levels;
     }
 
+    public void printLevels(List<List<Node>> levels) {
+        for (List<Node> level : levels) {
+            for (int i = 0; i < level.size(); i++) {
+                System.out.print(level.get(i).getValue());
+                if (i < level.size() - 1) {
+                    System.out.print(" -> ");
+                }
+            }
+            System.out.println();
+        }
+    }
 }
