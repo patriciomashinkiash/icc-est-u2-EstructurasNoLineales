@@ -1,6 +1,6 @@
-package main.materia.Controllers;
+package main.Materia.Controllers;
 
-import main.materia.Models.Node;
+import main.Materia.Models.Node;
 
 public class ArbolBinario {
     private Node root;
@@ -49,4 +49,10 @@ public class ArbolBinario {
     public Node getRoot() {
         return root;
     }
+
+    public void setRoot(Node root) {
+        this.root = root;
+    }
+
+    
 }

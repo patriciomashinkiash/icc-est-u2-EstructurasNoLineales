@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import main.materia.Models.Node;
+import main.Materia.Models.Node;
 
 // Implemeta un algoritmo que devuelva una lista enlazada
 // con los nodos de cada nivel. Si el arbol tiene N niveles
