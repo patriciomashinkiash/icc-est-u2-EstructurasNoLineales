@@ -1,6 +1,6 @@
 package main.Ejercicio_04_depth;
 
-import main.Materia.Models.Node;
+import main.materia.Models.Node;
 
 public class Depth {
     public int maxDepth(Node root) {

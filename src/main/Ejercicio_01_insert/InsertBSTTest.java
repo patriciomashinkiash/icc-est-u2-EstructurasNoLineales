@@ -1,6 +1,6 @@
 package main.Ejercicio_01_insert;
 
-import main.Materia.Models.Node;
+import main.materia.Models.Node;
 
 public class InsertBSTTest {
     public void insert(Node root, int value) {

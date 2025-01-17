@@ -1,6 +1,6 @@
-package main.Materia.Controllers;
+package main.materia.Controllers;
 
-import main.Materia.Models.Node;
+import main.materia.Models.Node;
 
 public class ArbolBinario {
     private Node root;

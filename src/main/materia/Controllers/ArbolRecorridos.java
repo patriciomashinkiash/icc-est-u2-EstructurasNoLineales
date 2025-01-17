@@ -1,8 +1,8 @@
-package main.Materia.Controllers;
+package main.materia.Controllers;
 
 import java.util.Stack;
 
-import main.Materia.Models.Node;
+import main.materia.Models.Node;
 
 public class ArbolRecorridos {
     public void preOrderIterativo(Node root) {
